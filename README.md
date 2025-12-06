@@ -351,6 +351,3 @@ for more user‑friendly inference.
 - Calibration data is derived from MetaMathQA, which is itself derived from GSM8K and MATH training sets; see the original repositories for details. ([Hugging Face](https://huggingface.co/datasets/meta-math/MetaMathQA?utm_source=chatgpt.com "meta-math/MetaMathQA · Datasets at Hugging Face"))
     
 - This repository’s code and configuration files may be used under the MIT license unless stated otherwise.
-    
-
-```
