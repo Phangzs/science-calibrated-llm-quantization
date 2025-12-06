@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+*.ipynb_checkpoints
+
+# Build / temp
+build/
+*.log
+
+# Large data / models (do NOT commit)
+models/
+*.gguf
+*.safetensors
+*.pt
+*.bin
+
+data/raw/
