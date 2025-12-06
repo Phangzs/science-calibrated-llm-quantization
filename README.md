@@ -8,7 +8,7 @@ End-to-end pipeline to **quantize a 70B reasoning model** (`deepseek-ai/DeepSeek
 - **Perplexity + throughput benchmarks** on math reasoning text
 - All scripts tuned for a **single A100 80GB** GPU
 
-This repo is meant as a **portfolio-quality, reproducible LLM infra project**, not just a one-off experiment.
+**Hugging Face model:** https://huggingface.co/ErikFeng/DeepSeek-R1-Distill-Llama-70B-Science-Q4_K_M-GGUF
 
 ---
 
@@ -33,7 +33,6 @@ This repo is meant as a **portfolio-quality, reproducible LLM infra project**, n
 ```text
 .
 ├── README.md                        # This file
-├── env/                             # Optional: conda or venv helpers
 ├── scripts/
 │   ├── prepare_generic_wikitext.py  # Pull & format WikiText-2 calibration data
 │   ├── prepare_science_data.py      # Pull & format MetaMathQA calibration/eval data
@@ -63,7 +62,7 @@ This repo is meant as a **portfolio-quality, reproducible LLM infra project**, n
     └── bench_q4_science.txt
 ````
 
-You don’t need to keep everything under git (especially `models/`); in practice, large artifacts live on Hugging Face, and this repo stores:
+Not everything is under git (especially `models/`). Large artifacts live on Hugging Face. This repo stores:
 
 - Scripts
     
@@ -354,6 +353,3 @@ for more user‑friendly inference.
 - Calibration data is derived from MetaMathQA, which is itself derived from GSM8K and MATH training sets; see the original repositories for details. ([Hugging Face](https://huggingface.co/datasets/meta-math/MetaMathQA?utm_source=chatgpt.com "meta-math/MetaMathQA · Datasets at Hugging Face"))
     
 - This repository’s code and configuration files may be used under the MIT license unless stated otherwise.
-    
-
-```
