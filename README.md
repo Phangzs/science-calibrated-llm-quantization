@@ -60,7 +60,7 @@ End-to-end pipeline to **quantize a 70B reasoning model** (`deepseek-ai/DeepSeek
     └── bench_q4_science.txt
 ````
 
-You don’t need to keep everything under git (especially `models/`); in practice, large artifacts live on Hugging Face, and this repo stores:
+Not everything is under git (especially `models/`). Large artifacts live on Hugging Face. This repo stores:
 
 - Scripts
     
