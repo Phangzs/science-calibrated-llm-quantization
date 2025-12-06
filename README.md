@@ -8,8 +8,6 @@ End-to-end pipeline to **quantize a 70B reasoning model** (`deepseek-ai/DeepSeek
 - **Perplexity + throughput benchmarks** on math reasoning text
 - All scripts tuned for a **single A100 80GB** GPU
 
-This repo is meant as a **portfolio-quality, reproducible LLM infra project**, not just a one-off experiment.
-
 ---
 
 ## 1. Project Goals
@@ -33,7 +31,6 @@ This repo is meant as a **portfolio-quality, reproducible LLM infra project**, n
 ```text
 .
 ├── README.md                        # This file
-├── env/                             # Optional: conda or venv helpers
 ├── scripts/
 │   ├── prepare_generic_wikitext.py  # Pull & format WikiText-2 calibration data
 │   ├── prepare_science_data.py      # Pull & format MetaMathQA calibration/eval data
