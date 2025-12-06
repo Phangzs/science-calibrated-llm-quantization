@@ -8,6 +8,8 @@ End-to-end pipeline to **quantize a 70B reasoning model** (`deepseek-ai/DeepSeek
 - **Perplexity + throughput benchmarks** on math reasoning text
 - All scripts tuned for a **single A100 80GB** GPU
 
+**Hugging Face model:** https://huggingface.co/ErikFeng/DeepSeek-R1-Distill-Llama-70B-Science-Q4_K_M-GGUF
+
 ---
 
 ## 1. Project Goals
